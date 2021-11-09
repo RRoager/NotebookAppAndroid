@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="13dp"
+        android:hint="Write title"
+        android:textColor="#AE000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:ellipsize="end"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="267dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <TextView
+        android:id="@+id/textViewContent"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:hint="..."
+        android:textColor="#AE000000"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:maxLines="2"
+        android:ellipsize="end"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="267dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+
+</RelativeLayout>
